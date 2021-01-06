@@ -1,7 +1,7 @@
 <template>
-  <div class="fixed flex flex-shrink-0 h-16 w-full max-w-6xl bg-white border-b-2 border-gray-100">
+  <div class="fixed z-10 flex flex-shrink-0 h-16 w-full max-w-6xl bg-white border-b-2 border-gray-100">
     <!-- TODO Add mobile friendly header -->
-    <button class="md:hidden p-6" @click="showMobileMenu">
+    <button class="md:hidden items-center px-6" @click="showMobileMenu">
       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
@@ -17,9 +17,9 @@
       </div>
 
       <!-- icons -->
-      <div>
+      <a href="/">
         <GlobeIcon class="mr-1 h-5 w-5 text-gray-700 hover:text-gray-800"  />
-      </div>
+      </a>
 
 
     </div>

@@ -13,13 +13,22 @@
     <MainHeader @showMobileMenu="showMobileMenu = true" v-show="!showMobileMenu" />
     <div class="h-screen flex">
       <DesktopSidebar class="hidden md:flex" />
-      <Nuxt />
+      <Nuxt class="mt-24 px-6" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  transition: {
+    name: 'page',
+    mode: 'out-in'
+  },
+  watch: {
+    '$route' () {
+      this.showMobileMenu = false
+    }
+  },
   data () {
     return {
       showMobileMenu: false
@@ -29,5 +38,16 @@ export default {
 </script>
 
 <style>
+  .prose code {
+    color: orange;
+  }
+  .prose a {
+    color: #2563EB;
+    text-decoration: none;
+  }
 
+  .prose a:hover {
+    color: #3B82F6;
+    text-decoration: none;
+  }
 </style>

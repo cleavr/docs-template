@@ -5,7 +5,7 @@
         Section Header
       </h3>
 
-      <nuxt-link to="#" class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700">
+      <nuxt-link to="doc-example" class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700">
         Link 1
       </nuxt-link>
 
