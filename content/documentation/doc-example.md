@@ -9,7 +9,7 @@ video: ''
 
 ### Header 3
 
-[Google](https://google.com)
+[this is a link](https://google.com)
 
 ![this is an image](/images/cleavr_logo.png)
 
@@ -24,3 +24,5 @@ video: ''
 - an 
 - unordered
 - list
+
+

@@ -9,7 +9,7 @@
         Link 1
       </nuxt-link>
 
-      <nuxt-link to="#" class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700">
+      <nuxt-link to="youtube-example" class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700">
         Link 2
       </nuxt-link>
     </div>

@@ -10,12 +10,12 @@
     <div class="flex-1 px-4 flex items-center justify-between">
       <div class="flex">
         <!-- logo -->
-        <logo class="h-5 w-5 hidden md:flex"/>
-
-        <!-- search -->
-        <input>
+        <a href="/">
+          <logo class="h-8 w-8 hidden md:flex"/>
+        </a>
       </div>
-
+      <!-- search -->
+      <input class="md:ml-24 border-solid border-2 border-gray-500">
       <!-- icons -->
       <a href="/">
         <GlobeIcon class="mr-1 h-5 w-5 text-gray-700 hover:text-gray-800"  />
