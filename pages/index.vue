@@ -60,7 +60,7 @@
   <div class="flex flex-col w-full mt-8">
     <div class="flex md:flex-row flex-col bg-red-200 justify-center md:text-left text-center rounded shadow-lg">
       <div class="flex flex-col relative justify-center items-center">
-        <div class="rounded-full w-12 h-12 text-xl text-red-100 bg-red-700 font-black flex justify-center items-center absolute shadow-lg -mr-5 md:mr-3">
+        <div class="rounded-full w-12 h-12 text-xl text-red-100 bg-red-700 font-black flex justify-center items-center absolute shadow-lg ml-2 md:ml-0 md:mr-3">
           <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
@@ -84,7 +84,7 @@
   <div class="flex flex-col w-full">
     <div class="flex md:flex-row flex-col bg-blue-200 justify-center md:text-left text-center rounded shadow-lg mt-12">
       <div class="flex flex-col relative justify-center items-center">
-        <div class="rounded-full w-12 h-12 text-xl text-teal-100 bg-blue-700 font-black flex justify-center items-center absolute shadow-lg -mr-5 md:mr-3">
+        <div class="rounded-full w-12 h-12 text-xl text-teal-100 bg-blue-700 font-black flex justify-center items-center absolute shadow-lg ml-2 md:ml-0 md:mr-3">
           <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
           </svg>
@@ -109,7 +109,7 @@
   <div class="flex flex-col w-full">
     <div class="flex md:flex-row flex-col bg-teal-200 justify-center md:text-left text-center rounded shadow-lg mt-12">
       <div class="flex flex-col relative justify-center items-center">
-        <div class="rounded-full w-12 h-12 text-xl text-teal-100 bg-teal-700 font-black flex justify-center items-center absolute shadow-lg -mr-5 md:mr-3">
+        <div class="rounded-full w-12 h-12 text-xl text-teal-100 bg-teal-700 font-black flex justify-center items-center absolute shadow-lg ml-2 md:ml-0 md:mr-3">
           <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
@@ -131,13 +131,12 @@
   </div>
 
 
-  <!-- component -->
   <div class="mt-12 pb-12 w-full">
     <h2 class="text-2xl font-semibold">
       Libraries Used
     </h2>
-    <div class="bg-white shadow-md rounded my-6">
-      <table class="text-left w-full border-collapse"> <!--Border collapse doesn't work on this site yet but it's available in newer tailwind versions -->
+    <div class="bg-white w-full min-w-3xl overflow-x-scroll shadow-md rounded my-6">
+      <table class="text-left w-full border-collapse">
         <thead>
         <tr>
           <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Library</th>
