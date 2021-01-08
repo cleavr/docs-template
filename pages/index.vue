@@ -1,12 +1,9 @@
 <template>
 
 <div class="w-full">
-
-
-
+  <!-- This is the landing page content - swap out with your own --> 
     <div class="p-4 w-full">
       <div class="grid grid-cols-10 gap-4">
-
         <div class="col-span-12 sm:col-span-6 md:col-span-3">
           <a href="https://yahoo.com" target="_blank" class="flex flex-row shadow-sm bg-blue-100 hover:bg-blue-200 rounded p-4 items-center">
             <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl text-blue-500">
@@ -15,14 +12,11 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
             </div>
-
-
             <div class="flex flex-col flex-grow ml-4 font-semibold text-blue-800">
               Live Preview
             </div>
           </a>
         </div>
-
         <div class="col-span-12 sm:col-span-6 md:col-span-3">
           <a href="https://yahoo.com" target="_blank" class="flex flex-row shadow-sm bg-green-100 hover:bg-green-200 rounded p-4 items-center">
             <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl text-green-500">
@@ -35,7 +29,6 @@
             </div>
           </a>
         </div>
-
         <div class="col-span-12 sm:col-span-6 md:col-span-3">
           <a href="https://docs.cleavr.io" target="_blank" class="flex flex-row shadow-sm bg-orange-100 hover:bg-orange-200 rounded p-4 items-center">
             <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-xl text-orange-500">
@@ -48,15 +41,8 @@
             </div>
           </a>
         </div>
-
-
-
       </div>
     </div>
-
-
-
-
   <div class="flex flex-col w-full mt-8">
     <div class="flex md:flex-row flex-col bg-red-200 justify-center md:text-left text-center rounded shadow-lg">
       <div class="flex flex-col relative justify-center items-center">
@@ -80,7 +66,6 @@
       </div>
     </div>
   </div>
-
   <div class="flex flex-col w-full">
     <div class="flex md:flex-row flex-col bg-blue-200 justify-center md:text-left text-center rounded shadow-lg mt-12">
       <div class="flex flex-col relative justify-center items-center">
@@ -105,7 +90,6 @@
       </div>
     </div>
   </div>
-
   <div class="flex flex-col w-full">
     <div class="flex md:flex-row flex-col bg-teal-200 justify-center md:text-left text-center rounded shadow-lg mt-12">
       <div class="flex flex-col relative justify-center items-center">
@@ -129,8 +113,6 @@
       </div>
     </div>
   </div>
-
-
   <div class="mt-12 pb-12 w-full">
     <h2 class="text-2xl font-semibold">
       Libraries Used
@@ -154,7 +136,6 @@
             Create blogs and docs using markdown and Vue components
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://github.com/drdogbot7/tailwindcss-responsive-embed" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -165,7 +146,6 @@
             Make embedded content responsive
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://github.com/tailwindlabs/tailwindcss-aspect-ratio" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -176,7 +156,6 @@
             Display ideal aspect rations for media
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://tailwindcss.com/docs/typography-plugin" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -187,7 +166,6 @@
             Style html converted from Markdown with Prose class
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://www.npmjs.com/package/nuxt-content-algolia" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -198,7 +176,6 @@
             Deliver documentation content to your Algolia indices
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/vue/" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -209,7 +186,6 @@
             Algolia search components made for VueJS
           </td>
         </tr>
-
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
             <a href="https://www.npmjs.com/package/remove-markdown" class="text-blue-500 hover:text-blue-700" target="_blank">
@@ -220,15 +196,11 @@
             Remove markdown characters when sending data to Algolia
           </td>
         </tr>
-
         </tbody>
       </table>
     </div>
   </div>
-
-
 </div>
-
 </template>
 
 <script>
@@ -236,47 +208,4 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
