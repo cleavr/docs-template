@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '~/plugins/vue-instantsearch'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -31,6 +32,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'nuxt-content-algolia'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -38,7 +40,28 @@ export default {
     '@nuxt/content'
   ],
 
+  nuxtContentAlgolia: {
+    appId: process.env.ALGOLIA_APP_ID,
+    apiKey: process.env.ALGOLIA_API_KEY,
+    paths: [
+      {
+        name: 'documentation',
+        index: 'docs',
+        fields: ['title', 'description', 'bodyPlainText']
+      }
+    ]
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+    transpile: ['vue-instantsearch', 'instantsearch.js/es']
+  },
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      const removeMd = require('remove-markdown');
+      if (document.extension === '.md') {
+        document.bodyPlainText = removeMd(document.text);
+      }
+    },
+  },
 }

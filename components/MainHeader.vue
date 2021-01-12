@@ -16,10 +16,10 @@
     </div>
 
     <!-- search -->
-    <input class="border-solid border-2 border-gray-500">
+    <Search class="border-solid border-2 border-gray-400" />
 
     <!-- Swap out the logo with one of your own - can be a link to your main site, a social icon, app login, etc. -->
-    <a href="/" class="px-4">
+    <a href="https://cleavr.io" class="px-4">
       <GlobeIcon class="mr-1 h-5 w-5 text-gray-700 hover:text-gray-800"  />
     </a>
   </div>

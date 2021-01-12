@@ -1,7 +1,7 @@
 <template>
 
 <div class="w-full">
-  <!-- This is the landing page content - swap out with your own --> 
+  <!-- This is the landing page content - swap out with your own -->
     <div class="p-4 w-full">
       <div class="grid grid-cols-10 gap-4">
         <div class="col-span-12 sm:col-span-6 md:col-span-3">
@@ -188,12 +188,12 @@
         </tr>
         <tr class="hover:bg-grey-lighter">
           <td class="py-4 px-6 border-b border-grey-light">
-            <a href="https://www.npmjs.com/package/remove-markdown" class="text-blue-500 hover:text-blue-700" target="_blank">
-              remove-markdown
+            <a href="https://www.npmjs.com/package/v-click-outside" class="text-blue-500 hover:text-blue-700" target="_blank">
+              v-click-outside
             </a>
           </td>
           <td class="py-4 px-6 border-b border-grey-light text-sm">
-            Remove markdown characters when sending data to Algolia
+            Detect outside clicks - great for collapsing dropdown menus
           </td>
         </tr>
         </tbody>
