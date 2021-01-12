@@ -2,7 +2,11 @@
 
 This template is a paired down version of [Cleavr's documentation website](https://docs.cleavr.io) that you can use as a starter template for your own documentation website. 
 
+You can check out the [docs template live preview](https://docstemplate.cleavr.cloud) to view and interact with the template. 
 
+## Details
+
+The template uses NuxtJS and relies on their Content module. Additional libraries used for the template can be found on the [live preview](https://docstemplate.cleavr.cloud) landing page. 
 
 ## Setup for local environment
 
