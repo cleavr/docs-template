@@ -26,4 +26,4 @@ If you use the Algolia Search feature, the index will be created and delivered t
 
 This template has Nuxt Static site generation enabled; however, you can configure to run in SSR mode if you prefer. Though, you'd need to find a different method to compile your index for Algolia as the package plugin requires that static site generation to run. 
 
-[<img src="https://docs.cleavr.io/images/deploy-with-cleavr.png" />](https://cleavr.io)
+[<img src="https://docs.cleavr.io/images/deploy-with-cleavr.png" />](https://cleavr.io/flash?vc-profile=e8d5603c-78ff-49f2-b6cf-badfbdec7aae&webapp=nuxtStatic&repository=cleavr/docs-template&branch=master&vps-region=sfo2&db-server=mysql57&vps-provider=digitalocean&vc-provider=github&vps-plan=s-1vcpu-1gb&flash=true)
