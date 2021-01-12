@@ -8,6 +8,8 @@ You can check out the [docs template live preview](https://docstemplate.cleavr.c
 
 The template uses NuxtJS and relies on their Content module. Additional libraries used for the template can be found on the [live preview](https://docstemplate.cleavr.cloud) landing page. 
 
+Feel free to fork this project and make your own. 
+
 ## Setup for local environment
 
 ```bash
