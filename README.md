@@ -10,6 +10,12 @@ The template uses NuxtJS and relies on their Content module. Additional librarie
 
 Feel free to fork this project and make your own. 
 
+Check out the accompanying tutorial series - 
+
+[dev.to turial series](https://dev.to/armiedema/getting-started-with-nuxtjs-content-module-3l5o)
+
+[YouTube playlist series](https://www.youtube.com/watch?v=OvtgcS6RL2Y&list=PLApnZzwJN4G5jU3NzBPWpHWJiXTEO9esd)
+
 ## Setup for local environment
 
 ```bash
